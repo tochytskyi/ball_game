@@ -84,6 +84,7 @@ function move(ball) {
         
         
         // blocks
+        // i think here should be more beautiful solution
         if (right_distance > margin_left-45 && right_distance < (margin_left + block_width)) { //block 11
             if (bottom_distance - 5 < 60) {
                 speed = start_speed;
